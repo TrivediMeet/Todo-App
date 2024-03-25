@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-size: medium;
+}
+h1{
+    color: black;
+    margin-bottom: 10px;
+    font-size: 2.2em;
+}
+body{
+    background-color: rgb(32, 32, 32);
+}
+button{
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    padding: 5px;
+}
+#Addbutton{
+    margin-top: 5px;
+    background-color: rgb(114, 117, 126);
+    width: 96%;
+}
+.input{
+    color: black;
+    padding: 3px;
+    border-radius: 3px;
+    width: 96%;
+    margin-top: 7px;
+    text-align: center;
+}
+
+.container
+{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.container >div{
+    
+    box-shadow: 2px 2px;
+    background-color: rgb(177, 177, 177);
+    width: 50%;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+#head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    font-size: larger;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+    font-size: large;
+}
+.body>div{
+    width: 36%;
+}
+.updatebtn{
+    background-color: rgb(114, 117, 126);
+    width: 48%;
+
+}
+.deletebtn{
+    background-color: rgb(114, 117, 126);
+    width: 48%;
+   
+}
+#lst >div{
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
